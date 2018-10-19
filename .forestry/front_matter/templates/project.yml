@@ -28,4 +28,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- _projects/ccjs-whats-going-on.md
 - _projects/new-project.md
