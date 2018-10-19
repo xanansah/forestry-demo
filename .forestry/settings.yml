@@ -4,13 +4,6 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: _credit-cards
-  label: Credit Cards
-  create: all
-  match: "*"
-  templates:
-  - project
 - type: heading
   label: Content
 - type: jekyll-posts
@@ -31,6 +24,13 @@ sections:
   match: "*"
   templates:
   - person
+- type: directory
+  path: _credit-cards
+  label: Credit Cards
+  create: all
+  match: "*"
+  templates:
+  - project
 - type: directory
   path: _projects
   label: Projects
