@@ -22,7 +22,7 @@ fields:
   name: author
   label: Author
   config:
-    required: false
+    required: true
 - name: date
   label: Publish Date
   type: datetime
