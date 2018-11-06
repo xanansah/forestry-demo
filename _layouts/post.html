@@ -10,6 +10,14 @@ layout: default
 <div class="container pure-g">
   <div class="pure-u-1">
     <div class="content content-narrow">
+			{% if page.category %}
+			<div class="post-date">{{ page.category }}</div>
+			{% endif %}
+
+			{% if page.heading %}
+			<h1>{{ page.heading }}</h1>
+			{% endif %}
+
       <div class="meta">
         {% if page.date %}
         <div class="post-date">{{ page.date | date_to_string }}</div>
@@ -32,8 +40,12 @@ layout: default
         {% endif %}
       </div>
 
-			{% if page.author %}
-			<div class="post-date">{{ page.author }}</div>
+
+			{% if page.author_name %}
+			<div class="post-date">{{ page.author_name }}</div>
+			{% endif %}
+			{% if page.author_title %}
+			<div class="post-date">{{ page.author_title }}</div>
 			{% endif %}
 
       {{ content }}
