@@ -8,5 +8,9 @@ fields:
   type: text
   hidden: false
   default: post
+- type: text
+  name: author
+  label: Author
 pages:
+- _posts/ola.md
 - _posts/2018-11-06-next-one.md
