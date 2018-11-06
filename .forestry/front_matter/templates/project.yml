@@ -28,6 +28,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- _projects/hello-world.md
 - _credit-cards/new-project-1.md
 - _projects/ccjs-whats-going-on.md
 - _projects/somewhere-to-live-maybe.html
