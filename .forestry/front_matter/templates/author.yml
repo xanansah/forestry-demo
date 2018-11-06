@@ -1,0 +1,11 @@
+---
+label: Author
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: author-name
+  label: Name
+  description: The name of the author of the article
+  config:
+    required: true
