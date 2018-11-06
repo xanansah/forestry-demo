@@ -9,6 +9,9 @@ fields:
   hidden: false
   default: ''
 - type: text
+  label: Canonical
+  name: canonical
+- type: text
   label: Sub Heading
   name: sub_heading
   default: ''
@@ -45,5 +48,5 @@ fields:
   hidden: true
   default: post
 - type: text
-  label: Canonical
-  name: canonical
+  name: description
+  label: Description
