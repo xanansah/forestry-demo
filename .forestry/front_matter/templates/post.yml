@@ -12,6 +12,11 @@ fields:
   label: Sub Heading
   name: sub_heading
   default: ''
+- type: text
+  name: author
+  label: Author
+  config:
+    required: false
 - name: date
   label: Publish Date
   type: datetime
