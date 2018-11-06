@@ -32,6 +32,10 @@ layout: default
         {% endif %}
       </div>
 
+			{% if page.author %}
+			<div class="post-date">{{ page.author }}</div>
+			{% endif %}
+
       {{ content }}
 
       {% if page.related_posts.size > 0 %}
