@@ -4,10 +4,6 @@ hide_body: false
 is_partial: true
 display_field: og_metadata
 fields:
-- type: text
-  name: og_image
-  label: Open Graph Image
-  description: An image URL which should represent this article.
 - type: field_group
   name: og_metadata
   label: Open Graph Metadata
