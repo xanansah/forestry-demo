@@ -19,11 +19,6 @@ fields:
   label: Publish Date
   config:
     required: true
-- type: text
-  name: layout
-  label: layout
-  hidden: true
-  default: post
 - type: field_group
   name: author
   label: Author
@@ -37,3 +32,8 @@ fields:
     name: author_title
     label: Author Job Title
     description: The job title of the author of the article.
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: post
