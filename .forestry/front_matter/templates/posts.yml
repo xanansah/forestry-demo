@@ -8,6 +8,11 @@ fields:
   type: text
   hidden: false
   default: post
+- type: include
+  template: meta
+  label: Open Graph
+  name: meta
+  description: Open Graph Metadata
 - type: text
   name: category
   label: Category
@@ -24,11 +29,6 @@ fields:
   name: author_title
   label: Author Job Title
 - type: text
-- type: include
-  template: meta
-  label: Open Graph
-  name: meta
-  description: Open Graph Metadata
 pages:
 - _posts/2018-11-06-ola.md
 - _posts/2018-11-06-next-one.md
