@@ -68,3 +68,23 @@ fields:
     description: The title of the article as it should appear.
     label: Open Graph Title
     name: og_title
+  - type: text
+    name: og_description
+    label: Open Graph Description
+    description: A one to two sentence description of this article.
+  - type: text
+    name: og_image_width
+    label: Open Graph Image Width
+    description: The number of pixels wide.
+  - type: text
+    name: og_image_height
+    label: Open Graph Image Height
+    description: The number of pixels high.
+  - type: text
+    name: og_image_alt
+    label: Open Graph Image Alternate Text
+    description: A description of what is in the image (not a caption).
+  - type: text
+    name: open_graph_image_type
+    label: Open Graph Image Type
+    description: The MIME type for this image; e.g. "png", "jpeg", "gif" etc.
