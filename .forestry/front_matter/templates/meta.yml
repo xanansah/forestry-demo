@@ -1,7 +1,7 @@
 ---
 label: Open Graph Metadata
 hide_body: false
-is_partial: false
+is_partial: true
 fields:
 - type: text
   name: og_locale
@@ -47,3 +47,24 @@ fields:
   description: 'The name which should be displayed for the overall site. '
   default: TotallyMoney
   hidden: true
+- type: field_group
+  name: og_metadata
+  label: Open Graph Metadata
+  fields:
+  - type: text
+    name: og_locale
+    label: Open Graph Locale
+    description: The locale this article is available in.
+    default: en-GB
+  - type: text
+    name: og_type
+    label: Open Graph Type
+    description: This object type which best represents this article.
+    default: article
+  - type: text
+    name: og_site_name
+    label: Open Graph Site Name
+  - type: text
+    description: The title of the article as it should appear.
+    label: Open Graph Title
+    name: og_title
