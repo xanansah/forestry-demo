@@ -8,6 +8,7 @@ fields:
   label: Open Graph Locale
   description: The locale this page is available in
   default: en-GB
+  hidden: true
 - type: text
   name: og_type
   label: Open Graph Type
@@ -45,3 +46,4 @@ fields:
   label: Open Graph Site Name
   description: 'The name which should be displayed for the overall site. '
   default: TotallyMoney
+  hidden: true
