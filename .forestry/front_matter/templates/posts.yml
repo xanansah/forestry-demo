@@ -40,6 +40,11 @@ fields:
     name: author_title
     label: Author Job Title
     description: The job title of the author of the article.
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Add any keywords or terms to assign to this article.
+  default: []
 pages:
 - _posts/2018-11-06-ola.md
 - _posts/2018-11-06-next-one.md
