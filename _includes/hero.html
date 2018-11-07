@@ -7,6 +7,15 @@
 					{% if page.sub_heading and page.sub_heading != "" %}
 						<h2>{{ page.sub_heading }}</h2>
 					{% endif %}
+					{% if page.date and page.date != "" %}
+						<h3>{{ page.date }}</h3>
+					{% endif %}
+					{% if page.author_name and page.author_name != "" %}
+						<h4>{{ page.author_name }}</h4>
+					{% endif %}
+					{% if page.author_title and page.author_title != "" %}
+						<h4>{{ page.author_title }}</h4>
+					{% endif %}
 					{% if page.hero_button %}
 					<div>
 						<a href="{{ page.hero_button.href | absolute_url }}" class="pure-button button-success button-xlarge" title="{{ page.hero_button.text }}">
