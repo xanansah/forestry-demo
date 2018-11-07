@@ -8,7 +8,7 @@
 						<h2>{{ page.sub_heading }}</h2>
 					{% endif %}
 					{% if page.date and page.date != "" %}
-						<h3>{{ page.date }}</h3>
+						<h3>{{ page.date | date: "%M %d, %Y" }}</h3>
 					{% endif %}
 					{% if page.author.name and page.author.name != "" %}
 						<h3>{{ page.author.name }}</h3>
