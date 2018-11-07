@@ -1,9 +1,58 @@
 ---
-label: Meta
+label: Open Graph Metadata
 hide_body: false
-is_partial: false
+is_partial: true
+display_field: og_metadata
 fields:
-- type: text
-  label: Description
-  name: description
-  description: A description of the article
+- type: field_group
+  name: og_metadata
+  label: Open Graph Metadata
+  fields:
+  - type: text
+    name: og_locale
+    label: Open Graph Locale
+    description: The locale this article is available in.
+    default: en-GB
+    hidden: true
+  - type: text
+    name: og_type
+    label: Open Graph Type
+    description: This object type which best represents this article.
+    default: article
+  - type: text
+    name: og_site_name
+    label: Open Graph Site Name
+  - type: text
+    description: The title of the article as it should appear.
+    label: Open Graph Title
+    name: og_title
+  - type: text
+    name: og_description
+    label: Open Graph Description
+    description: A one to two sentence description of this article.
+  - type: text
+    description: An alternate url to use if the webpage requires HTTPS.
+    label: Open Graph Image Secure Url
+    name: og_image_secure_url
+  - type: text
+    name: og_image_width
+    label: Open Graph Image Width
+    description: The number of pixels wide.
+  - type: text
+    name: og_image_height
+    label: Open Graph Image Height
+    description: The number of pixels high.
+  - type: text
+    name: og_image_alt
+    label: Open Graph Image Alternate Text
+    description: A description of what is in the image (not a caption).
+  - type: text
+    name: og_image_type
+    label: Open Graph Image Type
+    description: The MIME type for this image; e.g. "png", "jpeg", "gif" etc.
+  - type: text
+    name: og_site_name
+    label: Open Graph Site Name
+    description: The name which should be displayed for the overall site.
+    hidden: true
+    default: TotallyMoney

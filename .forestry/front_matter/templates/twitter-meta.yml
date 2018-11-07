@@ -1,0 +1,20 @@
+---
+label: Twitter Metadata
+hide_body: false
+is_partial: true
+display_field: twitter_metadata
+fields:
+- type: field_group
+  name: twitter_metadata
+  label: Twitter Metadata
+  fields:
+  - type: text
+    name: twitter_card
+    label: Twitter Card
+    description: The card type, which will be one of “summary”, “summary_large_image”,
+      “app”, or “player”
+  - type: text
+    name: twitter_site
+    label: Twitter Site
+    description: "@username for the website used in the card footer."
+    default: "@TotallyMoney"

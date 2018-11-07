@@ -8,6 +8,16 @@ fields:
   type: text
   hidden: false
   default: post
+- type: include
+  template: meta
+  label: Open Graph
+  name: meta
+  description: Open Graph Metadata
+- type: include
+  template: twitter-meta
+  label: Twitter Metadata
+  name: twitter_metadata
+  description: Metadata fields for Twitter card optimisation.
 - type: text
   name: category
   label: Category
@@ -17,17 +27,19 @@ fields:
 - type: datetime
   name: date
   label: Date
-- type: text
-  name: author_name
-  label: Author Name
-- type: text
-  name: author_title
-  label: Author Job Title
-- type: text
-- type: include
-  template: meta
-  label: Meta
-  name: meta
+- type: field_group
+  name: author
+  label: Author
+  description: Details about the author of the article.
+  fields:
+  - type: text
+    name: author_name
+    label: Author Name
+    description: The name of the author of the article.
+  - type: text
+    name: author_title
+    label: Author Job Title
+    description: The job title of the author of the article.
 pages:
 - _posts/2018-11-06-ola.md
 - _posts/2018-11-06-next-one.md
