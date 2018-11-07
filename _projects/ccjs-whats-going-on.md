@@ -4,9 +4,8 @@ tags:
 - Credit Report
 date: 2018-10-19 10:55:22 +0000
 sub_heading: Who knows what a CCJ is, not me! Let's find out.
-banner_image: ''
+banner_image: "/uploads/2018/11/07/dog.jpeg"
 slug: ''
-published: false
 
 ---
 # Lorem ipsum dolor sit amet
