@@ -37,3 +37,8 @@ fields:
   label: layout
   hidden: true
   default: post
+- type: text
+  name: author_name
+  label: Author Name
+  description: The name of the author of the article.
+  default: Buiewbciewbc
