@@ -9,7 +9,7 @@
   <!-- SEO Optimisation -->
   <title>{{ page.title }} - {{ site.title }}</title>
   <meta name="description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}" />
-  <link rel="canonical" href="{% if .page.canonical %}{{ .page.canonical }}{% else %}{{ .page.url }}{% endif %}" />
+  <link rel="canonical" href="{% if .page.canonical %}{{ .page.canonical }}{% else %}{{ .page.url | absolute_url }}{% endif %}" />
   <!-- Open Graph data -->
   <meta property="og:locale" content="en_GB" />
   <meta property="og:type" content="article" />
