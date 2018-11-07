@@ -27,13 +27,6 @@ fields:
 - type: datetime
   name: date
   label: Date
-- type: text
-  name: author_name
-  label: Author Name
-- type: text
-  name: author_title
-  label: Author Job Title
-- type: text
 - type: field_group
   name: author
   label: Author
@@ -47,6 +40,7 @@ fields:
     name: author_title
     label: Author Job Title
     description: The job title of the author of the article.
+- type: text
 pages:
 - _posts/2018-11-06-ola.md
 - _posts/2018-11-06-next-one.md
