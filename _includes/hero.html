@@ -10,11 +10,11 @@
 					{% if page.date and page.date != "" %}
 						<h3>{{ page.date }}</h3>
 					{% endif %}
-					{% if page.author_name and page.author_name != "" %}
-						<h3>{{ page.author_name }}</h3>
+					{% if page.author.name and page.author.name != "" %}
+						<h3>{{ page.author.name }}</h3>
 					{% endif %}
-					{% if page.author_title and page.author_title != "" %}
-						<h3>{{ page.author_title }}</h3>
+					{% if page.author.title and page.author.title != "" %}
+						<h3>{{ page.author.title }}</h3>
 					{% endif %}
 					{% if page.hero_button %}
 					<div>
