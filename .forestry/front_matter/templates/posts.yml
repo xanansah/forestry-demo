@@ -9,6 +9,11 @@ fields:
   hidden: false
   default: post
 - type: include
+  template: twitter-meta
+  label: Twitter Metadata
+  name: twitter_metadata
+  description: Metadata fields for Twitter card optimisation.
+- type: include
   template: meta
   label: Open Graph
   name: meta
