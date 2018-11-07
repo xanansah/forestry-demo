@@ -24,6 +24,10 @@ fields:
   name: author_title
   label: Author Job Title
 - type: text
+- type: include
+  template: meta
+  label: Meta
+  name: meta
 pages:
 - _posts/ola.md
 - _posts/2018-11-06-next-one.md
