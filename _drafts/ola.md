@@ -8,6 +8,7 @@ heading: The Name of the Guide That This Is
 author_name: Alex Owusu-Ansah
 author_title: Developer
 undefined: ''
+description: Some article about whatever
 
 ---
 nckjsdnvreds;vsnkvnd;vsd
