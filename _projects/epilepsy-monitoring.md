@@ -10,8 +10,8 @@ tags:
 - research
 slug: ''
 author:
-  name: Alex
-  title: Owusu-Ansah
+  name: Alex Owusu-Ansah
+  title: Developer
 
 ---
 ## Overview
