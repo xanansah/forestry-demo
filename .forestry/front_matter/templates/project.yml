@@ -60,6 +60,14 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: include
+  name: dsd
+  label: dsd
+  template: twitter-meta
+- type: include
+  name: htht
+  label: htht
+  template: meta
 pages:
 - _projects/hvuih.md
 - _projects/ccjs-whats-going-on.md
