@@ -17,6 +17,27 @@
 						<h3>{{ page.author.title }}</h3>
 					{% endif %}
 					{% if page.hero_button %}
+
+
+
+					<div class="heading__author">
+						<div class="heading__authorImage">
+							{% if page.banner_image and page.banner_image != "" %}
+							<img src="{{ page.author.image | absolute_url }}" />
+							{% endif %}
+						</div>
+						<div>
+							<span class="heading__authorName">
+								{% if page.author.name and page.author.name != "" %}{{ page.author.name }}{% endif %}
+							</span>
+							<time class="heading__authorTitle">
+								{% if page.author.title and page.author.title != "" %}{{ page.author.title }}{% endif %}
+							</time>
+						</div>
+					</div>
+
+
+
 					<div>
 						<a href="{{ page.hero_button.href | absolute_url }}" class="pure-button button-success button-xlarge" title="{{ page.hero_button.text }}">
 							{{ page.hero_button.text }}&nbsp;<i class="fa fa-chevron-right"></i>
