@@ -16,7 +16,7 @@
   <meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <meta property="og:description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}" />
-  <meta property="og:image" content="{{ page.banner_image.title }}" />
+  <meta property="og:image" content="{{ page.banner_image | absolute_url }}" />
   <meta property="og:image:secure_url" content="{% if page.banner_image and page.banner_image != "" %}{{ .page.banner_image.path | absolute_url }}{% endif %}" />
   <meta property="og:site_name" content="TotallyMoney" />
   <!-- Twitter Card -->
@@ -36,5 +36,8 @@
   <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
   <!--<![endif]-->
   <link rel="stylesheet" href="{{ "/css/main.min.css" | absolute_url }}">
+  <link src="{{ "/css/custom.css" | absolute_url }}" rel="stylesheet" type="text/css">
+
+
 </head>
 <body>
