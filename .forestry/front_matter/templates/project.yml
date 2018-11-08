@@ -61,6 +61,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- _projects/hvuih.md
 - _projects/ccjs-whats-going-on.md
 - _projects/olassss.md
 - _projects/hello-world.md
