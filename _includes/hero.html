@@ -16,21 +16,32 @@
 					{% if page.author.title and page.author.title != "" %}
 						<h3>{{ page.author.title }}</h3>
 					{% endif %}
-					<div class="heading__author">
-						<div class="heading__authorImage">
-							{% if page.author.image and page.author.image != "" %}
-							<img src="{{ page.author.image | absolute_url }}" />
-							{% endif %}
-						</div>
-						<div>
-							<span class="heading__authorName">
-								{% if page.author.name and page.author.name != "" %}{{ page.author.name }}{% endif %}
-							</span>
-							<time class="heading__authorTitle">
-								{% if page.author.title and page.author.title != "" %}{{ page.author.title }}{% endif %}
-							</time>
+
+
+
+					<div class="header__content">
+						<div class="header__category">{{ page.category }}</div>
+						<h1 class="header__heading">{{ page.heading | default: page.title }}</h1>
+						{% if page.date and page.date != "" %}
+						<time class="header__date">{{ page.date | date: "%B %d, %Y" }}</time>
+						{% endif %}
+						<div class="header__author">
+							<div class="header__authorImage">
+								{% if page.author.image and page.author.image != "" %}
+								<img src="{{ page.author.image | absolute_url }}" />
+								{% endif %}
+							</div>
+							<div>
+								<span class="header__authorName">
+									{% if page.author.name and page.author.name != "" %}{{ page.author.name }}{% endif %}
+								</span>
+								<time class="header__authorTitle">
+									{% if page.author.title and page.author.title != "" %}{{ page.author.title }}{% endif %}
+								</time>
+							</div>
 						</div>
 					</div>
+
 					{% if page.hero_button %}
 
 
