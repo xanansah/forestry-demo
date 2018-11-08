@@ -42,6 +42,10 @@ fields:
     label: Author Job Title
     description: The job title of the author of the article.
     default: erferverver
+  - type: file
+    name: image
+    label: Author Image
+    description: An image of the author of the article.
 pages:
 - _projects/ccjs-whats-going-on.md
 - _projects/olassss.md

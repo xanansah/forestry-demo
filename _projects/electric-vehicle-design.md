@@ -9,6 +9,9 @@ slug: ''
 author:
   author_name: Alex Owusu-Ansah
   author_title: Developer
+  image: "/uploads/2017/11/14/andrew-robles-300868.jpg"
+  name: Andrew Robles
+  title: Senior Vice-President of Robling
 
 ---
 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.

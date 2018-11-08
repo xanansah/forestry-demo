@@ -40,6 +40,10 @@ fields:
     name: author_title
     label: Author Job Title
     description: The job title of the author of the article.
+  - type: file
+    name: author_image
+    label: Author Image
+    description: An image of the author of the article.
 - type: tag_list
   name: tags
   label: Tags
