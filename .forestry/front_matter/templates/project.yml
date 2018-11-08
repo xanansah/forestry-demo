@@ -3,6 +3,20 @@ label: project
 hide_body: false
 is_partial: false
 fields:
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Credit Report
+    - Credit Cards
+    - Loans
+    - Mortgages
+    required: true
+  label: Category
+  name: category
+  description: The category the article falls into.
+  default: Credit Report
 - type: text
   name: title
   label: Title
@@ -15,16 +29,6 @@ fields:
   label: Banner Image
   type: file
   description: Dimensions work best at 1200 pixels by 400 pixels
-  hidden: false
-  default: ''
-- name: tags
-  label: Tags
-  type: tag_list
-  hidden: false
-  default: []
-- name: slug
-  label: Slug
-  type: text
   hidden: false
   default: ''
 - type: field_group
@@ -46,7 +50,26 @@ fields:
     name: image
     label: Author Image
     description: An image of the author of the article.
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: []
+- name: slug
+  label: Slug
+  type: text
+  hidden: false
+  default: ''
+- type: include
+  name: dsd
+  label: dsd
+  template: twitter-meta
+- type: include
+  name: htht
+  label: htht
+  template: meta
 pages:
+- _projects/hvuih.md
 - _projects/ccjs-whats-going-on.md
 - _projects/olassss.md
 - _projects/hello-world.md
